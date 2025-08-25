@@ -1,0 +1,28 @@
+seaborn
+matplotlib
+tiktoken
+# Web / UI
+streamlit>=1.25.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Data handling
+pandas>=2.1.0
+
+# Vector stores
+faiss-cpu>=1.7.4
+
+# Hugging Face LLMs & embeddings
+transformers>=4.40.0
+sentence-transformers>=2.2.2
+huggingface-hub>=0.18.0
+torch>=2.1.0
+
+# LangChain
+langchain>=0.1.142
+
+# Optional utilities
+tqdm>=4.66.0
+
+flask
