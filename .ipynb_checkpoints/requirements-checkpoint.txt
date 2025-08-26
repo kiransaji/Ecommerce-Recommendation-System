@@ -1,9 +1,0 @@
-pandas
-seaborn
-matplotlib
-python-dotenv
-tiktoken
-langchain
-openai
-streamlit
-faiss-cpu

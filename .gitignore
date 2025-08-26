@@ -1,4 +1,21 @@
+# Virtual environments
+venv/
 recommender_env/
+
+# Python cache
 __pycache__/
 *.pyc
-.DS_Store
+
+# Large data files
+vectorstore/
+*.pkl
+*.faiss
+*.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment & secrets
+.env
+
