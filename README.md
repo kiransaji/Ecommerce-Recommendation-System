@@ -34,7 +34,7 @@ Set up the OpenAI API key:
 - Create a .env file in the project root directory.
 - Add your OpenAI API key to the .env file in the following format:
 ```
-OPENAI_API_KEY=your-api-key
+HUGGINGFACE_API_KEY=your-api-key
 ```
 
 ## Usage
