@@ -58,7 +58,6 @@ The project utilizes the Flipkart e-commerce dataset, which contains information
 ## Set up the vector database file:
 
 The project uses a large vector database file (vectorstore/index.faiss) for efficient product recommendation retrieval.
-Due to the file size limitation on GitHub, the vectorstore/index.faiss file is not included in the repository.
 To obtain the vectorstore/index.faiss file just select product recommendation and the file will be generated in the project directory ( it is only generated once and can be used for future recommendations ).
 
 
@@ -96,6 +95,7 @@ For a complete list of dependencies, please refer to the `requirements.txt` file
 
 ## Future Enhancements
 
+- Using OpenAI, since it would give back better recommendation results.
 - Implement user authentication and personalized user profiles.
 - Expand the recommendation system to include user reviews and ratings.
 - Integrate with a real-time e-commerce platform for seamless product recommendations.
