@@ -13,16 +13,19 @@ are not limited to the dataset predefined categories and brands, users can input
 - **Persistent Storage:** The processed data and vector store are saved to disk, eliminating the need for repeated data processing and reducing API call costs.
 - **Interactive UI:** The system features an intuitive and user-friendly interface built with Streamlit, allowing users to easily interact with the recommendation system.
 
+## Check Out the Working Site!
+[(https://ecommerce-recommendation-system-e6gjbhcfhlkwhbepegvwah.streamlit.app/)]
+
 ## Installation
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/ecommerce-product-recommendation.git
+git clone https://github.com/your-username/Ecommerce-Recommendation-System.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd ecommerce-product-recommendation
+cd Ecommerce-Recommendation-System
 ```
 
 Install the required dependencies:
@@ -32,9 +35,9 @@ pip install -r requirements.txt
 
 Set up the OpenAI API key:
 - Create a .env file in the project root directory.
-- Add your OpenAI API key to the .env file in the following format:
+- Add your Hugging Face API key to the .env file in the following format:
 ```
-HUGGINGFACE_API_KEY=your-api-key
+HUGGINGFACEHUB_API_TOKEN=your-api-key
 ```
 
 ## Usage
@@ -43,7 +46,7 @@ HUGGINGFACE_API_KEY=your-api-key
 - Update the `dataset_path` variable in the `app.py` file with the path to your dataset file.
 - Run the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run app2.py
 ```
 - Access the application through the provided URL in your web browser.
 - Explore the data analysis visualizations and interact with the product recommendation system by providing your preferences.
@@ -64,10 +67,11 @@ To obtain the vectorstore/index.faiss file just select product recommendation an
 
 ```
 ecommerce-product-recommendation/
-├── app.py
+├── app2.py
 ├── data_processing.py
-├── recommendation_utils.py
+├── recommendation2.py
 ├── requirements.txt
+├── precompute.py
 ├── .env
 └── README.md
 ```
@@ -85,7 +89,7 @@ The project relies on the following major dependencies:
 - **Pandas**: For data manipulation and analysis.
 - **Seaborn and Matplotlib**: For data visualization.
 - **Langchain**: For building the language model and recommendation system.
-- **OpenAI**: For leveraging pre-trained language models and embeddings.
+- **Hugging Face**: For leveraging pre-trained language models and embeddings.
 
 For a complete list of dependencies, please refer to the `requirements.txt` file.
 
